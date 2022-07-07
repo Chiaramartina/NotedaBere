@@ -196,7 +196,26 @@ a, a:hover {
     height: 40%;
 }
 
+.gallery-grid-wrapper{
+    display: grid;
+    justify-content: center;
+    margin-top:10vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vh 40vh;
+    background-color: white;
+    gap: 10vh;
+}
 
+.gallery-grid-wrapper div {
+    text-align: center;
+    padding: 3%;
 
+}
+
+.gallery-grid-wrapper-img-appearance{
+    height:100%;
+    width:fit-content;
+    text-align:center;
+}
 
 
