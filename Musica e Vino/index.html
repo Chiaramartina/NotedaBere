@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,18 @@
     <title>Note da bere</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css-file.css">
+    <link rel="stylesheet" href="Slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <header><a href="index.html"><h1>Note da bere</h1></a></header>
+    <header><a href="index.html">
+                <h1>Note da bere</h1>
+            </a>
+    </header>
     <div class="upper-homepage-style">
         <nav>
             <ul class="menu">
@@ -22,10 +28,117 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="choose.html">Choose</a></li>
                 <li><a href="about.html">About us</a></li>
-        </ul>
+            </ul>
         </nav>
     </div>
-    <div class="home-grid-wrapper">
+    <input type="radio" id="s-1" name="slider-control" checked="checked">
+    <input type="radio" id="s-2" name="slider-control">
+    <input type="radio" id="s-3" name="slider-control">
+    <input type="radio" id="s-4" name="slider-control">
+    <div class="js-slider">
+        <figure class="js-slider_item img-1">
+            <div class="js-slider_img">
+                <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\Ella Fritzgerald.jpg" alt="">
+            </div>
+            <figcaption class="wo-caption">
+                <h3 class="wo-h3">
+                    <div class="c-label">Dream a little dream of me</div>
+                    <br class="view-sm mb-s">Ella Fitzgerald, Louis Armstrong
+                </h3>
+                <ul class="wo-credit">
+                    <li>Album: Love, Ella</li>
+                    <li>Anno: 1931</li>
+                    <p class="descrizione">
+                        La celebrazione più romantica e retrò dell'amare. Un amore romantico, da pellicola del cinema
+                        nascente di hollywood. Suggestioni di un ambientazione silenziosa, notturna al chiaro di luna.
+                        Note da bere in compagnia di un calice, anzi due di nebbiolo delle langhe piemontesi.
+                    </p>
+                </ul>
+            </figcaption>
+        </figure>
+        <figure class="js-slider_item img-2">
+            <div class="js-slider_img">
+                <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\L_architettura del mare.jpg" alt="">
+            </div>
+            <figcaption class="wo-caption">
+                <h3 class="wo-h3">
+                    <div class="c-label">L'architettura del mare</div>
+                    <br class="view-sm mb-s">Andrea Mangia aka Popoulus
+                </h3>
+                <ul class="wo-credit">
+                    <li>Album: stasi</li>
+                    <li>Anno: 2021</li>
+                    <p class="descrizione">
+                        La brezza marina solletica le ciglia. Ritmi lenti, scanditi, decisi restituiscono la sapidità del
+                        mare, il vivace brio di una serata estiva. L'arsura e l'afa delle strade cittadine arretra dinnanzi
+                        al maestrale sulla costa e al suo confine tracciato dalle onde.
+                    </p>
+                </ul>
+            </figcaption>
+        </figure>
+        <figure class="js-slider_item img-3">
+            <div class="js-slider_img">
+                <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\Madness.jpg" alt="">
+            </div>
+            <figcaption class="wo-caption">
+                <h3 class="wo-h3">
+                    <div class="c-label">Madness</div>
+                    <br class="view-sm mb-s">Muse
+                </h3>
+                <ul class="wo-credit">
+                    <li>Album: the second law</li>
+                    <li>Anno: 2012</li>
+                    <p class="descrizione">
+                        Tra la critica musicale c'è chi ritrova in questo brano i Queen più recenti o anche un tributo
+                        stilistico ai Depeche Mode.
+                        Intimo,seducente,brillante, a tratti struggente. Negazione. Il rifiuto della perdita della persona
+                        amata. Follia.
+                        Note da bere in compagnia di un cocktail Negroni.
+                    </p>
+                </ul>
+            </figcaption>
+        </figure>
+        <figure class="js-slider_item img-4">
+            <div class="js-slider_img">
+                <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\la collina dei ciliegi.jpg" alt="">
+            </div>
+            <figcaption class="wo-caption">
+                <h3 class="wo-h3">
+                    <div class="c-label">La collina dei ciliegi</div>
+                    <br class="view-sm mb-s">Lucio Battisti
+                </h3>
+                <ul class="wo-credit">
+                    <li>Album: Il nostro caro angelo</li>
+                    <li>Anno: 1973</li>
+                    <p class="descrizione">
+                        Uno stimolo ad andare oltre e scorgere aldilà della collina,
+                        finalmente luce. Suggestioni di una di una natura ineffabile, un
+                        po' agra, acerba , senza limiti e confini alla ricerca di sé .
+                        Note agrodolci che ospitano un amore sfuggente, fugace , eterno ed etereo. È primavera.
+                        Note da bere in compagnia di un ginFizz al mirtillo e lavanda con note floreali e aspre. Per i non
+                        amanti del gin si consiglia del rum bianco.
+                    </p>
+                </ul>
+            </figcaption>
+        </figure>
+        <div class="js-slider_nav">
+            <label class="js-slider_nav_item s-nav-1 prev" for="s-4"></label>
+            <label class="js-slider_nav_item s-nav-1 next" for="s-2"></label>
+            <label class="js-slider_nav_item s-nav-2 prev" for="s-1"></label>
+            <label class="js-slider_nav_item s-nav-2 next" for="s-3"></label>
+            <label class="js-slider_nav_item s-nav-3 prev" for="s-2"></label>
+            <label class="js-slider_nav_item s-nav-3 next" for="s-4"></label>
+            <label class="js-slider_nav_item s-nav-4 prev" for="s-3"></label>
+            <label class="js-slider_nav_item s-nav-4 next" for="s-1"></label>
+        </div>
+        <div class="js-slider_indicator">
+            <div class="js-slider-indi indi-1"></div>
+            <div class="js-slider-indi indi-2"></div>
+            <div class="js-slider-indi indi-3"></div>
+            <div class="js-slider-indi indi-4"></div>
+        </div>
+    </div>
+    <!--<div class="home-grid-wrapper">
         <div class="home-gbox1">
             <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\Ella Fritzgerald.jpg">
             <div class="home-caption">
@@ -33,10 +146,11 @@
                     <br> Dream a little dream of me<br>
                     <br>Autore: Ella Fitzgerald, Louis Armstrong<br>
                     <br> Album: Love, Ella<br>
-                    <br> Anno: 1931<br> 
+                    <br> Anno: 1931<br>
                 </div>
                 <p class="descrizione">
-                    La celebrazione più romantica e retrò dell'amare. Un amore romantico, da pellicola del cinema nascente di hollywood. Suggestioni di un ambientazione silenziosa, notturna al chiaro di luna. 
+                    La celebrazione più romantica e retrò dell'amare. Un amore romantico, da pellicola del cinema
+                    nascente di hollywood. Suggestioni di un ambientazione silenziosa, notturna al chiaro di luna.
                     Note da bere in compagnia di un calice, anzi due di nebbiolo delle langhe piemontesi.
                 </p>
             </div>
@@ -48,78 +162,89 @@
                     <br>L'architettura del mare<br>
                     <br> Autore: Andrea Mangia aka Popoulus<br>
                     <br>Album: stasi<br>
-                    <br>Anno: 2021<br> 
+                    <br>Anno: 2021<br>
                 </div>
                 <p class="descrizione">
-                    La brezza marina solletica le ciglia. Ritmi lenti, scanditi, decisi restituiscono la sapidità del mare, il vivace brio di una serata estiva.  L'arsura e l'afa delle strade cittadine arretra dinnanzi al maestrale sulla costa e al suo confine tracciato dalle onde.
+                    La brezza marina solletica le ciglia. Ritmi lenti, scanditi, decisi restituiscono la sapidità del
+                    mare, il vivace brio di una serata estiva. L'arsura e l'afa delle strade cittadine arretra dinnanzi
+                    al maestrale sulla costa e al suo confine tracciato dalle onde.
                 </p>
             </div>
         </div>
     </div>
     <div class="home-grid-wrapper">
         <div class="home-gbox1">
-            <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\Madness.jpg"> 
+            <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\Madness.jpg">
             <div class="home-caption">
                 <div class="classelenco">
-                     <br>Madness<br>
-                     <br> Autore: Muse<br>
-                     <br> Album: the second law<br>
-                     <br>  Anno: 2012<br> 
+                    <br>Madness<br>
+                    <br> Autore: Muse<br>
+                    <br> Album: the second law<br>
+                    <br> Anno: 2012<br>
                 </div>
                 <p class="descrizione">
-                    Tra la critica musicale c'è chi ritrova in questo brano i Queen più recenti o anche un tributo stilistico ai Depeche Mode. 
-                    Intimo,seducente,brillante, a tratti struggente. Negazione. Il rifiuto della perdita della persona amata. Follia. 
-                    Note da bere in compagnia di un cocktail Negroni. 
+                    Tra la critica musicale c'è chi ritrova in questo brano i Queen più recenti o anche un tributo
+                    stilistico ai Depeche Mode.
+                    Intimo,seducente,brillante, a tratti struggente. Negazione. Il rifiuto della perdita della persona
+                    amata. Follia.
+                    Note da bere in compagnia di un cocktail Negroni.
                 </p>
             </div>
         </div>
         <div class="home-gbox2">
-            <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\la collina dei ciliegi.jpg"> 
+            <img class="home-grid-wrapper-img-appearance" src="img\IMMAGINI HOMEPAGE\la collina dei ciliegi.jpg">
             <div class="home-caption">
                 <div class="classelenco">
                     <br>La collina dei ciliegi<br>
                     <br>Autore: Lucio Battisti<br>
                     <br>Album: Il nostro caro angelo<br>
-                    <br> Anno: 1973<br> 
+                    <br> Anno: 1973<br>
                 </div>
-                <p class="descrizione"> 
-                    Uno stimolo ad andare oltre e scorgere aldilà della collina, 
-                    finalmente luce. Suggestioni di una di una natura ineffabile, un 
-                    po' agra, acerba , senza limiti e confini alla ricerca di sé . 
+                <p class="descrizione">
+                    Uno stimolo ad andare oltre e scorgere aldilà della collina,
+                    finalmente luce. Suggestioni di una di una natura ineffabile, un
+                    po' agra, acerba , senza limiti e confini alla ricerca di sé .
                     Note agrodolci che ospitano un amore sfuggente, fugace , eterno ed etereo. È primavera.
-                    Note da bere in compagnia di un ginFizz al mirtillo e lavanda con note floreali e aspre. Per i non amanti del gin si consiglia del rum bianco. 
+                    Note da bere in compagnia di un ginFizz al mirtillo e lavanda con note floreali e aspre. Per i non
+                    amanti del gin si consiglia del rum bianco.
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
     <footer>
-		<p>Musica e Vino è un progetto di Chiara ed Anna sviluppato per il corso di "Informatica Umanistica" dell'Alma Mater Studiorum - Università di Bologna.</p>
-	<section class="mailcontact">
-		<a href="mailto:Chiara.Martina@studio.unibo.it">Contattaci via mail!</a>
-	</section>
-	<br/>
-    <div align="center" class="socialbtns">
-        <ul>
-            <li><a href="#" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-twitter"></a></li>
-            <li><a href="#" class="fa fa-instagram"></a></li>
-            <li><a href="#" class="fa fa-youtube"></a></li>
-        </ul>
-    </div>
+        <p>Musica e Vino è un progetto di Chiara ed Anna sviluppato per il corso di "Informatica Umanistica" dell'Alma
+            Mater Studiorum - Università di Bologna.</p>
+        <section class="mailcontact">
+            <a href="mailto:Chiara.Martina@studio.unibo.it">Contattaci via mail!</a>
+        </section>
+        <br />
+        <div align="center" class="socialbtns">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+        </div>
 
-	<section>
-		<div>
-			<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-			<i class="fa-brands fa-creative-commons-by fa-x"></i> <i class="fa-brands fa-creative-commons-nc"></i></a>
-			Le foto presenti nel sito sono coperte da licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.	
-		</div>
-		<div>
-			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-			<i class="fa-brands fa-creative-commons-by fa-x"></i></a>
-			Il sito è coperto da licenza 
-			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-		</div>
-    </section>	
-</footer>
+        <section>
+            <div>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+                    <i class="fa-brands fa-creative-commons-by fa-x"></i> <i
+                        class="fa-brands fa-creative-commons-nc"></i></a>
+                Le foto presenti nel sito sono coperte da licenza <a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0
+                    International License</a>.
+            </div>
+            <div>
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                    <i class="fa-brands fa-creative-commons-by fa-x"></i></a>
+                Il sito è coperto da licenza
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+                    International License</a>.
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>
