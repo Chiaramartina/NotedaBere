@@ -202,20 +202,90 @@ a, a:hover {
     margin-top:10vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40vh 40vh;
-    background-color: white;
+    background-color:none;
 }
 
 .gallery-grid-wrapper div {
     text-align: center;
     padding: 3%;
+    font-weight: bolder;
+    color: white;
+    
+}
+.gallery-grid-wrapper div:hover {
+    opacity: 2;
+    
+}
+.gallery-grid-wrapper a {
+    size: inherit;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.gallery-grid-wrapper a:hover {
+    color: red
 }
 
-.gallery-grid-wrapper-img-appearance{
+
+.gallery-grid-wrapper-img-appearance-jazz{
     object-fit: cover;
     object-position: center;
     text-align:center;
     height: 100%;
     width: 100%;
+    background-size: cover;
+    background-image: url("./img/jazz.png");
+    opacity: 0.75;
+}
+.gallery-grid-wrapper-img-appearance-rock{
+    object-fit: cover;
+    object-position: center;
+    text-align:center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image:  url("./img/rock.png");
+    opacity: 0.75;
 }
 
+.gallery-grid-wrapper-img-appearance-classici-italiani{
+    object-fit: cover;
+    object-position: center;
+    text-align:center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image:  url("./img/cantautorato.png"); 
+    opacity: 0.75;
+}
+.gallery-grid-wrapper-img-appearance-indie{
+    object-fit: cover;
+    object-position: center;
+    text-align:center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image:url("./img/indie.png");
+    opacity: 0.75;
+}
+.gallery-grid-wrapper-img-appearance-postpunk{
+    object-fit: cover;
+    object-position: center;
+    text-align:center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("./img/postpunk.png") ;
+    opacity: 0.75;
+}
+.gallery-grid-wrapper-img-appearance-tropicalvibes{
+    object-fit: cover;
+    object-position: center;
+    text-align:center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("./img/tropicalvibes.png") ;
+    opacity: 0.75;
+}
 
