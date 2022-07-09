@@ -203,7 +203,6 @@ a, a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40vh 40vh;
     background-color: white;
-    gap: 10vh;
 }
 
 .gallery-grid-wrapper div {
@@ -213,9 +212,11 @@ a, a:hover {
 }
 
 .gallery-grid-wrapper-img-appearance{
-    height:100%;
-    width:fit-content;
+    object-fit: cover;
+    object-position: center;
     text-align:center;
+    height: 100%;
+    width: 100%;
 }
 
 
