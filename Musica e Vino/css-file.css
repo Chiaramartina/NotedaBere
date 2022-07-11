@@ -7,8 +7,18 @@ body{
 header{
     text-align: center;
     text-transform: uppercase;
+    display: flex; 
+    flex-direction: row;
     
 }
+
+.logo{
+    height: 100%;
+    width: fit-content;
+    margin-top: 10px;
+
+}
+
 a{
     text-decoration: none;
 }
@@ -18,13 +28,17 @@ header h1{
     font-weight:bold;
     height:100%;
     font-size: 400%;
-    margin:5vh;
+    margin-bottom:5vh;
+    margin-top: 5vh;
+    display: block;
 }
+
 header a{
     text-decoration: none;
-    display:block;
+    display:flex;
     margin-left: 25%;
     margin-right: 25%;
+    height: 20vh;
 }
 .upper-homepage-style{
     margin:0;
