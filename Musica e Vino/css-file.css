@@ -75,7 +75,9 @@ menu a.active {
     background-color: #D11500;
     pointer-events: none;
 }
-
+#jazz-menu.menu {
+    background-color: rgb(255, 145, 0);
+}
 .menu li a:hover,
 .menu li a:focus {
     background-color:antiquewhite;
@@ -227,74 +229,78 @@ a, a:hover {
 }
 
 
-.gallery-grid-wrapper-img-appearance-jazz{
+.gallery-grid-wrapper-img-appearance {
     object-fit: cover;
     object-position: center;
     text-align:center;
     height: 100%;
     width: 100%;
     background-size: cover;
+    opacity: 0.75;
+}
+#jazz.gallery-grid-wrapper-img-appearance {
     background-image: url("./img/jazz.png");
-    opacity: 0.75;
 }
-.gallery-grid-wrapper-img-appearance-rock{
-    object-fit: cover;
-    object-position: center;
-    text-align:center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image:  url("./img/rock.png");
-    opacity: 0.75;
+#rock.gallery-grid-wrapper-img-appearance {
+    background-image: url("./img/rock.png");
 }
-
-.gallery-grid-wrapper-img-appearance-classici-italiani{
-    object-fit: cover;
-    object-position: center;
-    text-align:center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image:  url("./img/cantautorato.png"); 
-    opacity: 0.75;
+#classici-italiani.gallery-grid-wrapper-img-appearance {
+    background-image: url("./img/cantautorato.png");
 }
-.gallery-grid-wrapper-img-appearance-indie{
-    object-fit: cover;
-    object-position: center;
-    text-align:center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image:url("./img/indie.png");
-    opacity: 0.75;
+#indie.gallery-grid-wrapper-img-appearance {
+    background-image: url("./img/indie.png");
 }
-.gallery-grid-wrapper-img-appearance-postpunk{
-    object-fit: cover;
-    object-position: center;
-    text-align:center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image: url("./img/postpunk.png") ;
-    opacity: 0.75;
+#postpunk.gallery-grid-wrapper-img-appearance {
+    background-image: url("./img/postpunk.png");
 }
-.gallery-grid-wrapper-img-appearance-tropicalvibes{
-    object-fit: cover;
-    object-position: center;
-    text-align:center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image: url("./img/tropicalvibes.png") ;
-    opacity: 0.75;
+#tropicalvibes.gallery-grid-wrapper-img-appearance {
+    background-image: url("./img/tropicalvibes.png");
 }
 
-.gallery-grid-wrapper-jazzgallery {
-    display: grid;
+
+
+.jazz-header {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    margin-top:2%;
+
+
+}
+.gallery-flex-wrapper-jazzgallery {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top:10vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40vh 40vh;
-    background-color:orange;
-    background-image: url("./download/thesmith.png");
+    margin-top:5vh;
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 145, 0);
+    box-sizing: border-box;
+    
+}
+
+.gallery-flex-wrapper-jazzgallery-img-appearance {
+    height: 100%;
+    width: 30%;
+}
+
+.gallery-flex-wrapper-jazzgallery-img-appearance img {
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.gallery-flexwrapper-song-caption {
+    height:100%;
+    width: 70%;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
 }
