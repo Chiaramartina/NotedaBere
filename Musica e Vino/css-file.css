@@ -289,3 +289,12 @@ a, a:hover {
     opacity: 0.75;
 }
 
+.gallery-grid-wrapper-jazzgallery {
+    display: grid;
+    justify-content: center;
+    margin-top:10vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh;
+    background-color:white;
+    background-image: url("./download/thesmith.png");
+}
