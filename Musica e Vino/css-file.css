@@ -295,6 +295,6 @@ a, a:hover {
     margin-top:10vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40vh 40vh;
-    background-color:white;
+    background-color:orange;
     background-image: url("./download/thesmith.png");
 }
