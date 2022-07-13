@@ -24,7 +24,7 @@ a{
 }
 header h1{
     font-family: 'Gentium Book Plus', serif, text-transform uppercase; 
-    color: #D11500;
+    color: #ffffff;
     font-weight:bold;
     height:100%;
     font-size: 400%;
@@ -313,15 +313,15 @@ a, a:hover {
 #rock-menu.menu {
     background-color: rgb(0, 30, 255);
 }
-.postpunk-header {
-    color: rgb(136, 0, 255);
+.rock-header {
+    color: rgb(0, 30, 255);
     text-align: center;
     width: 100%;
     font-size: 30px;
     margin-top:2%;
 }
 
-.gallery-flex-wrapper-postpunkgallery {
+.gallery-flex-wrapper-rockgallery {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -330,17 +330,17 @@ a, a:hover {
     height: 40vh;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid rgb(136, 0, 255);
+    border: 1px solid rgb(0, 30, 255);
     box-sizing: border-box;
     
 }
 
-.gallery-flex-wrapper-postpunkgallery-img-appearance {
+.gallery-flex-wrapper-rockgallery-img-appearance {
     height: 100%;
     width: 30%;
 }
 
-.gallery-flex-wrapper-postpunkgallery-img-appearance img {
+.gallery-flex-wrapper-rockgallery-img-appearance img {
     object-fit: cover;
     object-position: center;
     width:100%;
