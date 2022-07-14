@@ -95,7 +95,7 @@ menu a.active {
 }
 
 #jazz-menu.menu {
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(238, 219, 12);
 }
 .menu li a:hover,
 .menu li a:focus {
@@ -248,10 +248,10 @@ a, a:hover {
     color: red;
 }
 #jazz a:hover {
-    color:rgb(255, 145, 0)
+    color: rgb(238, 219, 12);
 }
 #postpunk a:hover {
- color:rgb(136, 0, 255)
+ color: rgb(136, 0, 255)
 }
 #indie a:hover{
  color:rgb(1, 174, 105) ;
@@ -263,7 +263,7 @@ color:rgb(30, 160, 241);
 color: rgb(255, 115, 0);
 }
 #rock a:hover {
-color:rgb(0, 30, 255)
+color: rgb(255, 0, 140)
 }
 
 
@@ -295,10 +295,8 @@ color:rgb(0, 30, 255)
     background-image: url("./img/tropicalvibes.png");
 }
 
-
-
 .jazz-header {
-    color: rgb(255, 145, 0);
+    color:  rgb(238, 219, 12);
     text-align: center;
     width: 100%;
     font-size: 30px;
@@ -315,7 +313,7 @@ color:rgb(0, 30, 255)
     height: 40vh;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid rgb(255, 145, 0);
+    border: 1px solid rgb(238, 219, 12);
     box-sizing: border-box;
     
 }
@@ -335,10 +333,10 @@ color:rgb(0, 30, 255)
 }
 
 #rock-menu.menu {
-    background-color: rgb(0, 30, 255);
+    background-color:rgb(255, 0, 140);
 }
 .rock-header {
-    color: rgb(0, 30, 255);
+    color: rgb(255, 0, 140);
     text-align: center;
     width: 100%;
     font-size: 30px;
@@ -354,7 +352,7 @@ color:rgb(0, 30, 255)
     height: 40vh;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid rgb(0, 30, 255);
+    border: 1px solid  rgb(255, 0, 140);
     box-sizing: border-box;
     
 }
@@ -437,8 +435,6 @@ color:rgb(0, 30, 255)
     box-sizing: border-box;
     
 }
-
-
 
 .gallery-flex-wrapper-classiciitalianigallery-img-appearance {
     height: 100%;
