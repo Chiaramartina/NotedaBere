@@ -711,8 +711,8 @@ color: rgb(255, 0, 140)
       }
       }
     
-      @media screen and (max-width:768px)  {
+    @media screen and (max-width:768px)  {
         .head .about-flex-wrapper-aboutgallery
         display: block;
         float:none
-         }
+ }
