@@ -24,7 +24,7 @@ a{
 }
 header h1{
     font-family: 'Gentium Book Plus', serif, text-transform uppercase; 
-    color: #ffffff;
+    color: #fff;
     font-weight:bold;
     height:100%;
     font-size: 400%;
@@ -40,19 +40,18 @@ header a{
     margin-right: 25%;
     height: 20vh;
 }
-.upper-homepage-style{
+ /*.upper-homepage-style{
     margin:0;
     padding:0;
     width: 100%;
     height: 80vh;
-    background-image: url("./img/homeimage.png");
+    background-image: url("./img/video.mp4");
     background-repeat: no-repeat, no-repeat;
     background-size: cover;
     background-position:bottom;
     background-attachment: local;
     margin-bottom: 5vh;
-}
-
+} */
 
 .menu {
     list-style: none;
@@ -92,11 +91,11 @@ menu a.active {
 
 
 #jazz-menu.menu {
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(238, 219, 12);
 }
 .menu li a:hover,
 .menu li a:focus {
-    background-color:antiquewhite;
+    background-color:#fff;
     color:#D11500;
     
   }
@@ -136,7 +135,7 @@ menu a.active {
     font-family: 'Gentium Book Plus', serif;
     font-weight: bold;
     font-size: 2vh;
-    color: gainsboro;
+    color: #fff;
     font-size: 20px;
     line-height: 80%; 
    
@@ -244,10 +243,10 @@ a, a:hover {
     color: red;
 }
 #jazz a:hover {
-    color:rgb(255, 145, 0)
+    color: rgb(238, 219, 12);
 }
 #postpunk a:hover {
- color:rgb(136, 0, 255)
+ color: rgb(136, 0, 255)
 }
 #indie a:hover{
  color:rgb(1, 174, 105) ;
@@ -259,7 +258,7 @@ color:rgb(30, 160, 241);
 color: rgb(255, 115, 0);
 }
 #rock a:hover {
-color:rgb(0, 30, 255)
+color: rgb(255, 0, 140)
 }
 
 
@@ -291,17 +290,14 @@ color:rgb(0, 30, 255)
     background-image: url("./img/tropicalvibes.png");
 }
 
-
-
 .jazz-header {
-    color: rgb(255, 145, 0);
+    color:  rgb(238, 219, 12);
     text-align: center;
     width: 100%;
     font-size: 30px;
     margin-top:2%;
-
-
 }
+
 .gallery-flex-wrapper-jazzgallery {
     display: flex;
     flex-direction: row;
@@ -311,7 +307,7 @@ color:rgb(0, 30, 255)
     height: 40vh;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid rgb(255, 145, 0);
+    border: 1px solid rgb(238, 219, 12);
     box-sizing: border-box;
     
 }
@@ -331,10 +327,10 @@ color:rgb(0, 30, 255)
 }
 
 #rock-menu.menu {
-    background-color: rgb(0, 30, 255);
+    background-color:rgb(255, 0, 140);
 }
 .rock-header {
-    color: rgb(0, 30, 255);
+    color: rgb(255, 0, 140);
     text-align: center;
     width: 100%;
     font-size: 30px;
@@ -350,7 +346,7 @@ color:rgb(0, 30, 255)
     height: 40vh;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid rgb(0, 30, 255);
+    border: 1px solid  rgb(255, 0, 140);
     box-sizing: border-box;
     
 }
@@ -434,8 +430,6 @@ color:rgb(0, 30, 255)
     
 }
 
-
-
 .gallery-flex-wrapper-classiciitalianigallery-img-appearance {
     height: 100%;
     width: 30%;
@@ -475,8 +469,6 @@ color:rgb(0, 30, 255)
     box-sizing: border-box;
     
 }
-
-
 
 .gallery-flex-wrapper-tropicalvibesgallery-img-appearance {
     height: 100%;
@@ -518,8 +510,6 @@ color:rgb(0, 30, 255)
     
 }
 
-
-
 .gallery-flex-wrapper-indiegallery-img-appearance {
     height: 100%;
     width: 30%;
@@ -535,8 +525,6 @@ color:rgb(0, 30, 255)
     border-radius: 10%;
 }
 
-
-
 .gallery-flexwrapper-song-caption {
     height:100%;
     width: 70%;
@@ -547,17 +535,16 @@ color:rgb(0, 30, 255)
 
 }
 
-
-
 .about-flex-wrapper-aboutgallery {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top:5vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 60vh;
     width: 100%;
     border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     
 }
@@ -580,14 +567,15 @@ color:rgb(0, 30, 255)
 }
 
 .about-flexwrapper-song-caption {
-    height:60%;
+    height:90%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 2%;
     color: white;
     font-family: 'Gentium Book Plus', serif;
-    border: 1px solid rgb(255, 255, 255);
+    border: none;
     margin-top: 3%;
+   
  
   }
 
@@ -597,7 +585,10 @@ color:rgb(0, 30, 255)
     color: #fff;
     margin-top: 4vh;
     padding: 10%;
+    
 }
+
+
 .song-list {
     border:#fff solid 1px;
     margin: 5% ;
@@ -614,7 +605,7 @@ color:rgb(0, 30, 255)
     
 }
 
-      form {
+  form {
       position: relative;
     /*width: 80%; */
       border-radius: 30px;
@@ -717,3 +708,8 @@ color:rgb(0, 30, 255)
       }
       }
     
+    @media screen and (max-width:768px)  {
+        .head .about-flex-wrapper-aboutgallery
+        display: block;
+        float:none
+ }
