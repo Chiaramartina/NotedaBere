@@ -90,9 +90,6 @@ menu a.active {
     pointer-events: none;
 }
 
-#jazz a.active {
-    
-}
 
 #jazz-menu.menu {
     background-color: rgb(255, 145, 0);
