@@ -1,0 +1,14 @@
+@media screen and  (max-width: 768px;) {
+.header h1{
+    float: none;
+    display: block;
+    width: 400%;
+}
+.about-flexwrapper-song-caption {
+    float: none;
+    display: block;
+    width: 400%;
+
+}
+}
+    
