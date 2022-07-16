@@ -34,6 +34,7 @@ header h1{
     width:100%;
     padding-top: 7vh;
     padding-bottom: 5vh;
+    margin:0;
 }
 
 header a{
@@ -541,7 +542,7 @@ color: rgb(255, 0, 140)
     border-radius: 10%;
 }
 
-.gallery-flexwrapper-song-caption {
+.gallery-song-caption {
     height:100%;
     width: 70%;
     text-align: center;
@@ -551,7 +552,7 @@ color: rgb(255, 0, 140)
 
 }
 
-.about-flex-wrapper-aboutgallery {
+.about-flex-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -565,7 +566,7 @@ color: rgb(255, 0, 140)
     
 }
 
-.about-flex-wrapper-aboutgallery-img-appearance {
+.about-img-appearance {
     height: 100%;
     width: 70%;
     padding: 2%;
@@ -573,7 +574,7 @@ color: rgb(255, 0, 140)
   
 }
 
-.about-flex-wrapper-aboutgallery-img-appearance img {
+.about-img-appearance img {
     object-fit: cover;
     object-position: center;
     width:100%;
@@ -582,7 +583,7 @@ color: rgb(255, 0, 140)
     border-radius: 10%;
 }
 
-.about-flexwrapper-song-caption {
+.about-caption {
     height:90%;
     width: 100%;
     text-align: left;
@@ -734,15 +735,7 @@ color: rgb(255, 0, 140)
       width: 60%;
       }
     }
-    
-    @media screen and (max-width:768px)  {
-        .head .about-flex-wrapper-aboutgallery { 
-            display:block;
-            float:none;
-        }
-    }   
-    
-    
+
     .wireframe-img { 
         display: flex ;
        flex-direction:column;
@@ -753,3 +746,33 @@ color: rgb(255, 0, 140)
       height: 50vh;  
       width: fit-content;
     }
+    
+    @media screen and (max-width:768px)  {
+        .head .about-flex-wrapper-aboutgallery { 
+            display:block;
+            float:none;
+        }
+
+        .gallery-song-caption{
+            font-size: 2.5vw;
+        }
+
+        .about-flex-wrapper{
+            flex-direction: column;
+            align-items: center;
+        
+        }
+        .about-caption {
+            font-size:2.5vw;
+            padding-left: 3vw;
+            padding-right: 3vw;
+        }
+
+        .wireframe-img img {
+            width:90%;
+            height: fit-content;
+        }
+    }   
+    
+    
+    
