@@ -89,6 +89,9 @@ menu a.active {
     pointer-events: none;
 }
 
+/* #jazz a.active {
+    
+} */
 
 #jazz-menu.menu {
     background-color: rgb(238, 219, 12);
@@ -588,6 +591,16 @@ color: rgb(255, 0, 140)
     
 }
 
+.descrizionesito {
+    text-align: center;
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 200%;
+    margin-bottom:5vh;
+    margin-top: 5vh;
+    display: block;
+ 
+  }
 
 .song-list {
     border:#fff solid 1px;
@@ -699,17 +712,21 @@ color: rgb(255, 0, 140)
       font-weight: 400;
       color: #fff;
       }
+
       form button:hover {
       background: #520a01;
       } 
+    
       @media (min-width: 568px) {
       form {
       width: 60%;
       }
-      }
+    }
     
     @media screen and (max-width:768px)  {
         .head .about-flex-wrapper-aboutgallery
-        display: block;
-        float:none
- }
+    display: block;
+     float:none
+    }
+
+   
