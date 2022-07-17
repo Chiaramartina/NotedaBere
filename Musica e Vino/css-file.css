@@ -57,6 +57,20 @@ header a{
     margin-bottom: 2vh;
 } 
 
+.descrizionesito {
+    text-align: center;
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 200%;
+    margin: 5vh;
+    display: block;
+ 
+  }
+
+
+.Credits{
+    font-size:1.2vw;
+  }
 
 .homepage-video{
     text-align:center;
@@ -99,9 +113,6 @@ menu a.active {
     pointer-events: none;
 }
 
-/* #jazz a.active {
-    
-} */
 
 #jazz-menu.menu {
     background-color: rgb(238, 219, 12);
@@ -113,14 +124,7 @@ menu a.active {
     
   }
 
-.home-grid-wrapper{
-    display: grid;
-    justify-content: center;
-    margin-top:10vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 90vh;
-}
-.home-grid-wrapper-img-appearance{
+.home-img-appearance{
     height: 100%;
     width: fit-content;
     max-width: 100%;
@@ -129,20 +133,6 @@ menu a.active {
     text-align:center;
     object-fit: contain;
     
-}
-.home-gbox1 {
-    grid-column:1;
-    grid-row:1;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
-}
-.home-gbox2 {
-    grid-column:2;
-    grid-row:1;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
 }
 
 .home-caption {
@@ -228,6 +218,7 @@ a, a:hover {
     line-height: 1em;
     font-size: 1em;
     height: 40%;
+    line-height: 3vh;
 }
 
 .gallery-grid-wrapper{
@@ -245,6 +236,9 @@ a, a:hover {
     font-weight: bolder;
     color: white;
     
+}
+.gallery-grid-wrapper a {
+    height: 100%;
 }
 .gallery-grid-wrapper div:hover {
     opacity: 2;
@@ -307,15 +301,48 @@ color: rgb(255, 0, 140)
     background-image: url("./img/tropicalvibes.png");
 }
 
-.jazz-header {
-    color:  rgb(238, 219, 12);
+.gallery-img-appearance {
+    height: 100%;
+    width: 30%;
+}
+
+.gallery-img-appearance img {
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.gallery-header {
     text-align: center;
     width: 100%;
     font-size: 30px;
     margin-top:2%;
 }
 
-.gallery-flex-wrapper-jazzgallery {
+
+#jazz.gallery-header {
+    color:  rgb(238, 219, 12);
+}
+#rock.gallery-header {
+    color: rgb(255, 0, 140);
+}
+#postpunk.gallery-header {
+    color: rgb(136, 0, 255);
+}
+#classiciitaliani.gallery-header {
+    color:rgb(30, 160, 241);
+}
+#tropicalvibes.gallery-header {
+    color:rgb(255, 115, 0);
+}
+#indie.gallery-header {
+    color:rgb(1, 174, 105);
+}
+
+.gallery-flex-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -324,222 +351,54 @@ color: rgb(255, 0, 140)
     height: 40vh;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid rgb(238, 219, 12);
     box-sizing: border-box;
     
 }
-
-.gallery-flex-wrapper-jazzgallery-img-appearance {
-    height: 100%;
-    width: 30%;
+#jazz.gallery-flex-wrapper {
+    border: 1px solid rgb(238, 219, 12);
 }
 
-.gallery-flex-wrapper-jazzgallery-img-appearance img {
-    object-fit: cover;
-    object-position: center;
-    width:100%;
-    height: 100%;
-    padding: 2%;
-    border-radius: 10%;
+#rock.gallery-flex-wrapper {
+    border: 1px solid  rgb(255, 0, 140);
+}
+
+#postpunk.gallery-flex-wrapper {
+    border: 1px solid rgb(136, 0, 255);
+}
+
+#classiciitaliani.gallery-flex-wrapper {
+    border: 1px solid rgb(30, 160, 241);
+}
+
+#tropicalvibes.gallery-flex-wrapper {
+    border: 1px solid rgb(255, 115, 0);
+}
+
+#indie.gallery-flex-wrapper {
+    border: 1px solid rgb(1, 174, 105);
 }
 
 #rock-menu.menu {
     background-color:rgb(255, 0, 140);
-}
-.rock-header {
-    color: rgb(255, 0, 140);
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    margin-top:2%;
-}
-
-.gallery-flex-wrapper-rockgallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:5vh;
-    background-color: black;
-    height: 40vh;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid  rgb(255, 0, 140);
-    box-sizing: border-box;
-    
-}
-
-.gallery-flex-wrapper-rockgallery-img-appearance {
-    height: 100%;
-    width: 30%;
-}
-
-.gallery-flex-wrapper-rockgallery-img-appearance img {
-    object-fit: cover;
-    object-position: center;
-    width:100%;
-    height: 100%;
-    padding: 2%;
-    border-radius: 10%;
 }
 
 
 #postpunk-menu.menu {
     background-color: rgb(136, 0, 255);
 }
-.postpunk-header {
-    color: rgb(136, 0, 255);
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    margin-top:2%;
-}
 
-.gallery-flex-wrapper-postpunkgallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:5vh;
-    background-color: black;
-    height: 40vh;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid rgb(136, 0, 255);
-    box-sizing: border-box;
-    
-}
-
-.gallery-flex-wrapper-postpunkgallery-img-appearance {
-    height: 100%;
-    width: 30%;
-}
-
-.gallery-flex-wrapper-postpunkgallery-img-appearance img {
-    object-fit: cover;
-    object-position: center;
-    width:100%;
-    height: 100%;
-    padding: 2%;
-    border-radius: 10%;
-}
 
 #classiciitaliani-menu.menu {
     background-color: rgb(30, 160, 241);
 }
-.classiciitaliani-header {
-    color:rgb(30, 160, 241);
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    margin-top:2%;
-}
 
-.gallery-flex-wrapper-classiciitalianigallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:5vh;
-    background-color: black;
-    height: 40vh;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid rgb(30, 160, 241);
-    box-sizing: border-box;
-    
-}
-
-.gallery-flex-wrapper-classiciitalianigallery-img-appearance {
-    height: 100%;
-    width: 30%;
-    
-}
-
-.gallery-flex-wrapper-classiciitalianigallery-img-appearance img {
-    object-fit: cover;
-    object-position: center;
-    width:100%;
-    height: 100%;
-    padding: 2%;
-    border-radius: 10%;
-}
 
 #tropicalvibes-menu.menu {
     background-color: rgb(255, 115, 0);
 }
-.tropicalvibes-header {
-    color:rgb(255, 115, 0) ;
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    margin-top:2%;
-}
-
-.gallery-flex-wrapper-tropicalvibesgallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:5vh;
-    background-color: black;
-    height: 40vh;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid rgb(255, 115, 0);
-    box-sizing: border-box;
-    
-}
-
-.gallery-flex-wrapper-tropicalvibesgallery-img-appearance {
-    height: 100%;
-    width: 30%;
-    
-}
-
-.gallery-flex-wrapper-tropicalvibesgallery-img-appearance img {
-    object-fit: cover;
-    object-position: center;
-    width:100%;
-    height: 100%;
-    padding: 2%;
-    border-radius: 10%;
-}
 
 #indie-menu.menu {
     background-color: rgb(1, 174, 105);
-}
-.indie-header {
-    color:rgb(1, 174, 105);
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    margin-top:2%;
-}
-
-.gallery-flex-wrapper-indiegallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:5vh;
-    background-color: black;
-    height: 40vh;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid rgb(1, 174, 105);
-    box-sizing: border-box;
-    
-}
-
-.gallery-flex-wrapper-indiegallery-img-appearance {
-    height: 100%;
-    width: 30%;
-    
-}
-
-.gallery-flex-wrapper-indiegallery-img-appearance img {
-    object-fit: cover;
-    object-position: center;
-    width:100%;
-    height: 100%;
-    padding: 2%;
-    border-radius: 10%;
 }
 
 .gallery-song-caption {
@@ -549,6 +408,12 @@ color: rgb(255, 0, 140)
     padding: 2%;
     color: white;
     font-family: 'Gentium Book Plus', serif;
+
+}
+
+.gallery-song-caption ul{
+    list-style: none;
+    
 
 }
 
@@ -605,15 +470,12 @@ color: rgb(255, 0, 140)
     
 }
 
-.descrizionesito {
-    text-align: center;
-    color: white;
-    font-family: 'Gentium Book Plus', serif;
-    font-size: 200%;
-    margin: 5vh;
-    display: block;
- 
-  }
+.aboutus-description a{
+    text-decoration: none;
+    color: #D30000;
+    
+}
+
 
 .song-list {
     border: red solid 2px;
@@ -741,6 +603,7 @@ color: rgb(255, 0, 140)
        flex-direction:column;
        text-align: center;
        margin-bottom: 5vh;
+       margin-top: 2vh;
     }
     .wireframe-img img {
       height: 50vh;  
@@ -768,6 +631,15 @@ color: rgb(255, 0, 140)
             padding-right: 3vw;
         }
 
+        .Credits{
+            font-size: 3vw;
+            line-height: 2vh;
+          }
+
+        .descrizione{
+            font-size: 3vw;
+            line-height: 2vh;
+        }
         .wireframe-img img {
             width:90%;
             height: fit-content;
