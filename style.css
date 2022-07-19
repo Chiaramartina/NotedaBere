@@ -64,7 +64,7 @@ header a{
     font-size: 200%;
     margin: 5vh;
     display: block;
- 
+   
   }
 
 
@@ -305,6 +305,7 @@ color: rgb(255, 0, 140)
 .gallery-img-appearance {
     height: 100%;
     width: 30%;
+   
 }
 
 .gallery-img-appearance img {
@@ -314,6 +315,7 @@ color: rgb(255, 0, 140)
     height: 100%;
     padding: 2%;
     border-radius: 10%;
+   
 }
 
 .gallery-header {
@@ -447,6 +449,7 @@ color: rgb(255, 0, 140)
     height: 100%;
     padding: 2%;
     border-radius: 10%;
+    
 }
 
 .about-caption {
